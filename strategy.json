@@ -1,0 +1,66 @@
+[
+{
+    "stockcode":"000660",
+    "startdate":"2018-01-01",
+    "enddate":"today",
+    "datetype":"D",
+
+    "technical value":
+    ["RSI(timeperiod=14)",
+    "MACD(fast_period=12, slow_period=26, signal_period=9)",
+    "BBcandle(period=20, nbdevup=2, nbdevdn=2, up_pct=1.5, down_pct=0.5, check_period=2)",
+    "STOCH(fastk_period=5, slowk_period=3, slowd_period=3, up_pct=80, down_pct=20)"],
+
+    "strategy":
+    ["if trade.bbcandle_buy and not trade.macd<0: buy(stock=1000)",
+    "if trade.bbcandle_sell and not trade.macd<0: sell(stock=1000)"]
+},
+{
+    "stockcode":"000660",
+    "startdate":"2018-01-01",
+    "enddate":"today",
+    "datetype":"D",
+
+    "technical value":
+    ["RSI(timeperiod=14)",
+    "MACD(fast_period=12, slow_period=26, signal_period=9)",
+    "BBcandle(period=20, nbdevup=2, nbdevdn=2, up_pct=1.5, down_pct=0.5, check_period=2)",
+    "STOCH(fastk_period=5, slowk_period=3, slowd_period=3, up_pct=80, down_pct=20)"],
+
+    "strategy":
+    ["if trade.bbcandle_buy and not trade.macd<0: buy(stock=1000)",
+    "if trade.bbcandle_sell and not trade.macd<0: sell(stock=1000)"]
+},
+{
+    "stockcode":"000660",
+    "startdate":"2018-01-01",
+    "enddate":"today",
+    "datetype":"D",
+
+    "technical value":
+    ["RSI(timeperiod=14)",
+    "MACD(fast_period=12, slow_period=26, signal_period=9)",
+    "BBcandle(period=20, nbdevup=2, nbdevdn=2, up_pct=1.5, down_pct=0.5, check_period=2)",
+    "STOCH(fastk_period=5, slowk_period=3, slowd_period=3, up_pct=80, down_pct=20)"],
+
+    "strategy":
+    ["if trade.bbcandle_buy and not trade.macd<0: buy(stock=1000)",
+    "if trade.bbcandle_sell and not trade.macd<0: sell(stock=1000)"]
+},
+{
+    "stockcode":"000660",
+    "startdate":"2018-01-01",
+    "enddate":"today",
+    "datetype":"D",
+
+    "technical value":
+    ["RSI(timeperiod=14)",
+    "MACD(fast_period=12, slow_period=26, signal_period=9)",
+    "BBcandle(period=20, nbdevup=2, nbdevdn=2, up_pct=1.5, down_pct=0.5, check_period=2)",
+    "STOCH(fastk_period=5, slowk_period=3, slowd_period=3, up_pct=80, down_pct=20)"],
+
+    "strategy":
+    ["if trade.bbcandle_buy and not trade.macd<0: buy(stock=1000)",
+    "if trade.bbcandle_sell and not trade.macd<0: sell(stock=1000)"]
+}
+]
